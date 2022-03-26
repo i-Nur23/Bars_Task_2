@@ -1,6 +1,4 @@
 ﻿using System;
-using System.IO;
-
 namespace Program;
 internal static class Program
 {
@@ -38,9 +36,7 @@ internal static class Program
     public static Dictionary<int, List<Entity>> ConvertToDict(List<Entity> list)
     {
         Dictionary<int, List<Entity>> newDict = new Dictionary<int, List<Entity>>();
-
-        List<Entity> entities = new List<Entity>();
-
+        
         foreach (Entity entity in list)
         {
             if (newDict.TryGetValue(entity.ParentId, out List<Entity> entitiesFromOneParents))
