@@ -1,0 +1,9 @@
+[Info]: [Int32] : Info_Int
+[Warning] : [Int32] : Warning_Int
+[Error] : [Int32] : Error_Int. Exception of type 'System.Exception' was thrown.
+[Info]: [String] : Info_Str
+[Warning] : [String] : Warning_Str
+[Error] : [String] : Error_Str. Object reference not set to an instance of an object.
+[Info]: [MyClass] : Info_My
+[Warning] : [MyClass] : Warning_Class
+[Error] : [MyClass] : Error in MyClass. Attempted to divide by zero.
